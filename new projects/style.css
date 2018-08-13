@@ -1,0 +1,12 @@
+h1 {
+	color: green;
+	text-decoration: underline;
+}
+p {
+	font-size: 25px;
+	font-family: 'Trebuchet MS','sans-serif';
+}
+li {
+	list-style-type: none;
+	list-style-position: inside;
+}

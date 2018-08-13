@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+	<link rel="stylesheet" type="text/css" href="myfirstcss.css">
+</head>
+<body>
+	<div id="main-header">
+		<canvas id="register" width="600" height="100" style="background-color: #808080"></canvas>
+	<script type="text/javascript">
+		var canvas = document.getElementById("register");
+		var ctx =canvas.getContext("2d");
+		ctx.font = "34px serif";
+		ctx.textAlign = "center";
+		ctx.textBaseLine = "middle";
+		ctx.fillStyle = "#FFF";
+		ctx.fillText("REGISTRATION FORM",300,60);
+
+	</script>
+		
+	</div>
+	<div id="form-div" style="background-color: #808080" align="center">
+		<p><em>please use uppercase letters when fill this form</em></p>
+		<form>
+			<fieldset id="onfield" width="300" height="100" >
+			<label>First Name:</label><br>
+			<input type="text" name="first-name"><br>
+			<label>Second Name:</label><br>
+			<input type="text" name="second-name"><br>
+			<label>Age:</label><br>
+			<input type="text" name="age"><br>
+			<label>Last Institution Attended:</label><br>
+			<input type="text" name="Institution"><br>
+		    </fieldset>
+		    <input type="submit" name="submit">
+
+
+
+		</form>
+	</div>
+
+</body>
+</html>
